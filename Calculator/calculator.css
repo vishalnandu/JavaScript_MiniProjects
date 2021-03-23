@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+#backgroundImage {
+  width: 1100px;
+  height: 510px;
+  margin: auto;
+  padding-bottom: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(bgImg.jpg);
+}
+#cal {
+  background-color: whitesmoke;
+  margin: 10px auto;
+  width: 370px;
+  height: 550px;
+  box-shadow: 50px 50px 50px rgb(128, 123, 123);
+  /* position: relative; */
+}
+#display {
+  /* width: 370px; */
+  height: 150px;
+  text-align: right;
+}
+#userInput {
+  height: 55px;
+  padding-right: 10px;
+  padding-top: 20px;
+  text-align: right;
+  color: rgb(170, 152, 152);
+}
+#result {
+  padding-top: 3px;
+  padding-right: 10px;
+  font-size: 65px;
+  text-align: right;
+  font-weight: bold;
+}
+#keyboard {
+  height: 400px;
+}
+
+.operator,
+.numbers,
+.empty {
+  width: 80px;
+  height: 60px;
+  margin: 6px;
+  float: left;
+  border-radius: 20%;
+  background-color: whitesmoke;
+  border-width: 0px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.operator,
+.numbers {
+  cursor: pointer;
+}
+.operator:active,
+.numbers:active {
+  color: red;
+}
+.empty:focus,
+.numbers:focus,
+.operator:focus {
+  outline: 0px;
+}
+.operator {
+  box-shadow: 3px 3px 7px rgb(218, 88, 88);
+}
