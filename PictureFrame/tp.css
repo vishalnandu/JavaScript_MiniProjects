@@ -1,0 +1,23 @@
+.image-area {
+  margin-top: 30px;
+  padding: var(--PADDING);
+  background: var(--BG);
+  filter: blur(var(--BLUR));
+}
+.hl {
+  color: var(--BG);
+}
+.typing-area {
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+  color: aliceblue;
+}
+:root {
+  --BG: #ffc600;
+  --PADDING: 10px;
+  --BLUR: 10px;
+}
