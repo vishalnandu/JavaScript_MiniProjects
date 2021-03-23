@@ -1,0 +1,57 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(90, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 8px solid white;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.brand {
+  top: 60px;
+  font-size: 30px;
+  font-weight: bolder;
+
+  position: absolute;
+}
+.digital {
+  border: 3px solid white;
+  position: absolute;
+  top: 100px;
+  width: 90px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-hand {
+  border: 2px solid red;
+}
+.min-hand {
+  border: 2px solid black;
+}
+.hour-hand {
+  border: 4px solid black;
+}
+.clock-hands {
+  position: absolute;
+  height: 200px;
+  transition: all 0.5s;
+  transform-origin: bottom;
+}
