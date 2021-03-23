@@ -1,0 +1,16 @@
+#question {
+  color: olivedrab;
+}
+#heading {
+  color: orangered;
+}
+.button {
+  padding: 9px;
+  margin: 2px;
+}
+#option {
+  color: brown;
+}
+body {
+  text-align: center;
+}
